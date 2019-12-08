@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="758.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentResultWindow.resultWinController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="508.0000244140625" minWidth="10.0" prefWidth="216.8" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="294.39996337890625" minWidth="10.0" prefWidth="181.40001220703124" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="302.8000366210937" minWidth="10.0" prefWidth="170.19998779296873" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="302.8000366210937" minWidth="10.0" prefWidth="110.00002441406252" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="302.8000366210937" minWidth="10.0" prefWidth="121.19997558593752" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="127.19998779296876" minHeight="10.0" prefHeight="125.60001220703126" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="172.79997558593752" minHeight="10.0" prefHeight="148.0000122070313" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="307.0" minHeight="10.0" prefHeight="203.99998779296868" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="267.9999877929688" minHeight="10.0" prefHeight="107.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Pane prefHeight="101.0" prefWidth="326.0">
+         <children>
+            <Label fx:id="examTypeText" layoutX="17.0" layoutY="37.0" prefHeight="34.0" prefWidth="188.0" text="Examination Type">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="sessionText" layoutX="17.0" layoutY="71.0" prefHeight="34.0" prefWidth="145.0" text="Session">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox prefHeight="126.0" prefWidth="395.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Roll Number">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Name">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Semester">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Branch">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+         <children>
+            <Label fx:id="institutionText" alignment="CENTER" layoutX="-4.0" prefHeight="122.0" prefWidth="182.0" text="Institution Name">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <children>
+            <Label fx:id="rollNumberText" alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Roll Number Text">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameText" alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Name Text">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="semesterText" alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Semester Text">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="branchText" alignment="TOP_LEFT" prefHeight="18.0" prefWidth="399.0" text="Branch Text">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="2">
+         <children>
+            <Label alignment="CENTER" prefHeight="34.0" prefWidth="233.0" text="Subject Code">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub1Code" alignment="CENTER" prefHeight="18.0" prefWidth="399.0" text="sub1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub2Code" alignment="CENTER" prefHeight="18.0" prefWidth="399.0" text="sub2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub3Code" alignment="CENTER" prefHeight="18.0" prefWidth="399.0" text="sub3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub4Code" alignment="CENTER" prefHeight="18.0" prefWidth="399.0" text="sub4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub5Code" alignment="CENTER" prefHeight="18.0" prefWidth="399.0" text="sub5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub6Code" alignment="CENTER" prefHeight="18.0" prefWidth="399.0" text="sub6">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" />
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Label prefHeight="34.0" prefWidth="255.0" text="Subject Name">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub1Name" prefHeight="18.0" prefWidth="399.0" text="sub1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub2Name" prefHeight="18.0" prefWidth="399.0" text="sub2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub3Name" prefHeight="18.0" prefWidth="399.0" text="sub3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub4Name" prefHeight="18.0" prefWidth="399.0" text="sub4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub5Name" prefHeight="18.0" prefWidth="399.0" text="sub5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub6Name" prefHeight="18.0" prefWidth="399.0" text="sub6">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <children>
+            <Label prefHeight="34.0" prefWidth="255.0" text="Marks">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub1Marks" prefHeight="18.0" prefWidth="399.0" text="sub1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub2Marks" prefHeight="18.0" prefWidth="399.0" text="sub2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub3Marks" prefHeight="18.0" prefWidth="399.0" text="sub3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub4Marks" prefHeight="18.0" prefWidth="399.0" text="sub4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub5Marks" prefHeight="18.0" prefWidth="399.0" text="sub5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub6Marks" prefHeight="18.0" prefWidth="399.0" text="sub6">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <children>
+            <Label prefHeight="34.0" prefWidth="255.0" text="Grade">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub1Grade" prefHeight="18.0" prefWidth="399.0" text="sub1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub2Grade" prefHeight="18.0" prefWidth="399.0" text="sub2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub3Grade" prefHeight="18.0" prefWidth="399.0" text="sub3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub4Grade" prefHeight="18.0" prefWidth="399.0" text="sub4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub5Grade" prefHeight="18.0" prefWidth="399.0" text="sub5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub6Grade" prefHeight="18.0" prefWidth="399.0" text="sub6">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+         <children>
+            <Label layoutX="88.0" layoutY="14.0" prefHeight="34.0" prefWidth="107.0" text="Final CGPA:">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="41.0" prefHeight="34.0" prefWidth="107.0" text="Percentage:">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox prefHeight="200.0" prefWidth="93.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <children>
+            <Label prefHeight="34.0" prefWidth="255.0" text="CGPA">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub1cgpa" prefHeight="18.0" prefWidth="399.0" text="sub1">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub2cgpa" prefHeight="18.0" prefWidth="399.0" text="sub2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub3cgpa" prefHeight="18.0" prefWidth="399.0" text="sub3">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub4cgpa" prefHeight="18.0" prefWidth="399.0" text="sub4">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub5cgpa" prefHeight="18.0" prefWidth="399.0" text="sub5">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="sub6cgpa" prefHeight="29.0" prefWidth="109.0" text="sub6">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Label fx:id="cgpaText" layoutX="12.0" layoutY="14.0" prefHeight="34.0" prefWidth="162.0" text="CGPA">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="percentageText" layoutX="12.0" layoutY="39.0" prefHeight="34.0" prefWidth="162.0" text="percent">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
